@@ -1,4 +1,4 @@
 yabai --restart-service
-skhd --restart-service -c ~/.config/skhd/.skhdrc
+skhd --restart-service
 brew services restart borders
 brew services restart sketchybar
