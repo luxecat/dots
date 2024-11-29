@@ -73,7 +73,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-eval "$(oh-my-posh init zsh --config "$(brew --prefix oh-my-posh)/themes/bubbles-edited.omp.json")"
+eval "~/.config/oh-my-posh/bubbles-edited.omp.json"
 
 # User configuration
 
