@@ -13,25 +13,24 @@ for i = 1, 10, 1 do
       string = i,
       padding_left = 15,
       padding_right = 8,
-      color = colors.white,
-      highlight_color = colors.blue,
+      color = colors.grey,
+      highlight_color = colors.black,
     },
     label = {
       padding_right = 20,
       color = colors.grey,
-      highlight_color = colors.white,
+      highlight_color = colors.black,
       font = "sketchybar-app-font:Regular:16.0",
       y_offset = -1,
     },
     padding_right = 1,
     padding_left = 1,
     background = {
-      color = colors.bg1,
+      color = colors.white,
       border_width = 1,
-      height = 26,
-      border_color = colors.black,
+      border_color = colors.white,
     },
-    popup = { background = { border_width = 5, border_color = colors.black } }
+    popup = { background = { border_width = 5, border_color = colors.white } }
   })
 
   spaces[i] = space
@@ -43,7 +42,7 @@ for i = 1, 10, 1 do
       border_color = colors.bg2,
       height = 28,
       border_width = 2
-    }
+    },
   })
 
   -- Padding space
@@ -72,10 +71,10 @@ for i = 1, 10, 1 do
     space:set({
       icon = { highlight = selected, },
       label = { highlight = selected },
-      background = { border_color = selected and colors.black or colors.bg2 }
+      background = { border_color = selected and colors.white or colors.white }
     })
     space_bracket:set({
-      background = { border_color = selected and colors.grey or colors.bg2 }
+      background = { border_color = selected and colors.white or colors.white }
     })
   end)
 
@@ -100,12 +99,12 @@ local space_window_observer = sbar.add("item", {
 })
 
 local spaces_indicator = sbar.add("item", {
-  padding_left = -3,
+  padding_left = 0,
   padding_right = 0,
   icon = {
     padding_left = 8,
     padding_right = 9,
-    color = colors.grey,
+    color = colors.black,
     string = icons.switch.on,
   },
   label = {
@@ -113,11 +112,11 @@ local spaces_indicator = sbar.add("item", {
     padding_left = 0,
     padding_right = 8,
     string = "Spaces",
-    color = colors.bg1,
+    color = colors.black,
   },
   background = {
-    color = colors.with_alpha(colors.grey, 0.0),
-    border_color = colors.with_alpha(colors.bg1, 0.0),
+    color = colors.white,
+    border_color = colors.white,
   }
 })
 
@@ -149,11 +148,6 @@ end)
 spaces_indicator:subscribe("mouse.entered", function(env)
   sbar.animate("tanh", 30, function()
     spaces_indicator:set({
-      background = {
-        color = { alpha = 1.0 },
-        border_color = { alpha = 1.0 },
-      },
-      icon = { color = colors.bg1 },
       label = { width = "dynamic" }
     })
   end)
@@ -162,11 +156,6 @@ end)
 spaces_indicator:subscribe("mouse.exited", function(env)
   sbar.animate("tanh", 30, function()
     spaces_indicator:set({
-      background = {
-        color = { alpha = 0.0 },
-        border_color = { alpha = 0.0 },
-      },
-      icon = { color = colors.grey },
       label = { width = 0, }
     })
   end)

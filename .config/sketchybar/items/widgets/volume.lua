@@ -8,6 +8,7 @@ local volume_percent = sbar.add("item", "widgets.volume1", {
   position = "right",
   icon = { drawing = false },
   label = {
+    color = colors.black,
     string = "??%",
     padding_left = -1,
     font = { family = settings.font.numbers }
@@ -28,6 +29,7 @@ local volume_icon = sbar.add("item", "widgets.volume2", {
     },
   },
   label = {
+    color = colors.black,
     width = 25,
     align = "left",
     font = {
@@ -41,7 +43,7 @@ local volume_bracket = sbar.add("bracket", "widgets.volume.bracket", {
   volume_icon.name,
   volume_percent.name
 }, {
-  background = { color = colors.bg1 },
+  background = { color = colors.white, border_color = colors.white },
   popup = { align = "center" }
 })
 
@@ -118,14 +120,14 @@ local function volume_toggle_details(env)
         for device in string.gmatch(available, '[^\r\n]+') do
           local color = colors.grey
           if current == device then
-            color = colors.white
+            color = colors.black
           end
           sbar.add("item", "volume.device." .. counter, {
             position = "popup." .. volume_bracket.name,
             width = popup_width,
             align = "center",
             label = { string = device, color = color },
-            click_script = 'SwitchAudioSource -s "' .. device .. '" && sketchybar --set /volume.device\\.*/ label.color=' .. colors.grey .. ' --set $NAME label.color=' .. colors.white
+            click_script = 'SwitchAudioSource -s "' .. device .. '" && sketchybar --set /volume.device\\.*/ label.color=' .. colors.grey .. ' --set $NAME label.color=' .. colors.black
 
           })
           counter = counter + 1

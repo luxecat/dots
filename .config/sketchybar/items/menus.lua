@@ -21,6 +21,7 @@ for i = 1, max_items, 1 do
     drawing = false,
     icon = { drawing = false },
     label = {
+      color = colors.black,
       font = {
         style = settings.font.style_map[i == 1 and "Heavy" or "Semibold"]
       },
@@ -34,7 +35,7 @@ for i = 1, max_items, 1 do
 end
 
 sbar.add("bracket", { '/menu\\..*/' }, {
-  background = { color = colors.bg1 }
+  background = { color = colors.white, border_color = colors.white }
 })
 
 local menu_padding = sbar.add("item", "menu.padding", {
