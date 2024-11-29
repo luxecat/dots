@@ -26,7 +26,7 @@ local wifi_up = sbar.add("item", "widgets.wifi1", {
       style = settings.font.style_map["Bold"],
       size = 9.0,
     },
-    color = colors.red,
+    color = colors.blue,
     string = "??? Bps",
   },
   y_offset = 4,
