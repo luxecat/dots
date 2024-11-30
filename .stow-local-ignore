@@ -2,6 +2,3 @@ install.sh
 start.sh
 stop.sh
 restart.sh
-com.luxecat.dots.plist
-create-launch-agent.sh
-reload-launch-agent.sh
