@@ -82,6 +82,9 @@ shift + ctrl - l    : yabai -m window  east --stack $(yabai -m query --windows -
 shift + ctrl - n : yabai -m window --focus stack.next
 shift + ctrl - p : yabai -m window --focus stack.prev
 
+# Toggle boolean values with the hs cli
+shift + ctrl - t : hs -c "stackline.config:toggle('appearance.showIcons')"
+
 ## Resize (ctrl + lalt - ...)
 # Resize windows: ctrl + lalt - {j, k, l, ö}
 ctrl + lalt - h    : yabai -m window --resize right:-100:0 || yabai -m window --resize left:-100:0
