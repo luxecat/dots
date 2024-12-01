@@ -1,1 +1,1 @@
-stow . -t ~
+stow --adopt . -t ~
