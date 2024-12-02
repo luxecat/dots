@@ -103,3 +103,10 @@ eval "$(oh-my-posh init zsh --config "~/.config/oh-my-posh/bubbles-edited.omp.js
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# pnpm
+export PNPM_HOME="/Users/nishithmunasinghe/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
