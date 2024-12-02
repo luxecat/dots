@@ -15,7 +15,7 @@ yabai -m config external_bar               all:40:0       \
                 normal_window_opacity      0.9           \
                 window_animation_duration  0.1           \
                 window_animation_easing    ease_in_out_circ \
-                insert_feedback_color      0xffa6da95     \
+                insert_feedback_color      0xff61afef     \
                 split_ratio                0.50           \
                 auto_balance               off            \
                 mouse_modifier             fn             \
