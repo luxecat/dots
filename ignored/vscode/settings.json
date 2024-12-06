@@ -1,0 +1,70 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.accessiblilitySupport": "off",
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+
+  "editor.fontFamily": "'Iosevka Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.42857,
+  "vscode_custom_css.imports": ["file:///Users/nishithmunasinghe/Code/dots/ignored/vscode/style.css"],
+  "terminal.integrated.fontSize": 16,
+
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
+
+  "workbench.editor.showTabs": false, // hide tabs
+  "breadcrumbs.enabled": false, // hides breadcrumb path at top of window
+  "window.commandCenter": false, // hides command center at the top of the window. Use cmd+shift+p instead
+  "workbench.layoutControl.enabled": false, // hides those little squares on the top right of the window
+  "workbench.editor.editorActionsLocation": "hidden", // hides the "format" and ellipsis buttons on the top right of the window
+  "editor.minimap.renderCharacters": false, // make minimap blockish (low level of detail)
+  "editor.hideCursorInOverviewRuler": true, // don't highlight current line in scrollbar
+  "editor.minimap.autohide": true, // shows minimap only on hover
+
+  // "workbench.activityBar.location": "left",
+  // "workbench.sideBar.location": "left",
+
+  "workbench.statusBar.visible": false,
+
+  "editor.stickyScroll.enabled": true,
+  "gitlens.mode.active": "zen",
+  "editor.wordWrap": "on",
+
+  "workbench.iconTheme": "chalice-icon-theme",
+  "workbench.colorTheme": "Atom One Dark",
+
+  "git.openRepositoryInParentFolders": "never",
+  "git.autofetch": true,
+  "git.confirmNoVerifyCommit": false,
+  "git.confirmSync": false,
+  "git.ignoreMissingGitWarning": true,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ],
+  "gitlens.hovers.currentLine.over": "line",
+
+  "typescript.preferences.importModuleSpecifier": "non-relative", // prefer aliases when importing
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".mdx", ".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    "mdx",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false
+}

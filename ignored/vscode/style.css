@@ -1,0 +1,48 @@
+*:not(.activitybar, .activitybar *, .monaco-action-bar, .monaco-action-bar *) {
+  font-family: "Iosevka Nerd Font", Menlo, Monaco, "Courier New", monospace !important;
+  font-size: 16px !important;
+}
+
+*:not(.activitybar, .activitybar *) {
+  font-size: 16px !important;
+}
+
+.monaco-icon-label-container {
+  margin-left: 0.25rem !important;
+}
+
+.title {
+  margin-left: 0.25rem !important;
+}
+
+.twisty-container {
+  margin-left: 0.25rem !important;
+}
+
+.titlebar-container {
+  height: 1.75rem !important;
+}
+
+.part.activitybar.left {
+  background-color: rgb(33, 37, 43) !important;
+}
+
+span.codicon::before {
+  margin-right: 0.5rem !important;
+}
+
+.monaco-count-badge {
+  padding: unset !important;
+  padding-top: 6px !important;
+  padding-right: 6px !important;
+  padding-bottom: 3px !important;
+  padding-left: 6px !important;
+}
+
+.badge-content {
+  font-size: 16px !important;
+}
+
+.monaco-tl-contents {
+  gap: 0.25rem !important;
+}
