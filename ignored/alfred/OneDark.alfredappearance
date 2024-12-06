@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#282C34C4",
+        "font" : "Iosevka Nerd Font",
+        "color" : "#ABB2BFFF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#282C34FF",
+        "font" : "Iosevka Nerd Font",
+        "color" : "#ABB2BFFF"
+      },
+      "backgroundSelected" : "#61AFEFE4",
+      "text" : {
+        "size" : 18,
+        "colorSelected" : "#282C34FF",
+        "font" : "Iosevka Nerd Font",
+        "color" : "#ABB2BFFF"
+      },
+      "iconPaddingHorizontal" : 4,
+      "roundness" : 4,
+      "paddingVertical" : 3,
+      "iconSize" : 40
+    },
+    "search" : {
+      "backgroundSelected" : "#61AFEFFF",
+      "paddingHorizontal" : 8,
+      "spacing" : 8,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#282C34FF",
+        "font" : "Iosevka Nerd Font",
+        "color" : "#282C34FF"
+      },
+      "background" : "#ABB2BFFF",
+      "roundness" : 4,
+      "paddingVertical" : 5
+    },
+    "window" : {
+      "color" : "#282C34FF",
+      "paddingHorizontal" : 16,
+      "width" : 450,
+      "borderPadding" : 5,
+      "borderColor" : "#ABB2BFFF",
+      "blur" : 15,
+      "roundness" : 4,
+      "paddingVertical" : 16
+    },
+    "credit" : "luxecat",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#ABB2BFFF",
+      "thickness" : 2
+    },
+    "name" : "OneDark"
+  }
+}
