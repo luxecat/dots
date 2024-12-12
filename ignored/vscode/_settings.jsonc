@@ -11,7 +11,7 @@
   "editor.fontFamily": "'Iosevka Nerd Font', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.lineHeight": 1.42857,
-  "vscode_custom_css.imports": ["file:///Users/nishithmunasinghe/Code/dots/ignored/vscode/style.css"],
+  "vscode_custom_css.imports": ["file://$$PATH_TO_STYLES$$"],
   "terminal.integrated.fontSize": 16,
 
   "editor.cursorBlinking": "smooth",
