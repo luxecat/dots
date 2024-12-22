@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  font-family: "Iosevka Nerd Font" !important;
+  font-size: 16px !important;
+}
+
+/* div[role="tablist"] {
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: scroll !important;
+  align-items: stretch !important;
+}
+
+div[role="tablist"] .tab-position,
+div[role="tablist"] .separator {
+  --PositionX: 0px !important;
+  --PositionY: 0px !important;
+  --Height: 3rem !important;
+  position: unset !important;
+}
+
+.tab {
+  justify-content: center !important;
+}
+
+#tabs-container .tab.tab-small.tab-mini .tab-header,
+#tabs-container .tab.pinned.tab-mini .tab-header {
+  padding-left: calc((var(--Width) - 6px) / 2) !important;
+}
+
+.separator {
+  z-index: 1000 !important;
+}
+
+.tabs-strip {
+  flex: 1 0 auto !important;
+} */
